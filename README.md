@@ -1,15 +1,12 @@
 ## [gnostr-icons](https://github.com/gnostr-org/gnostr-icons)
 
-# [banner](./icons/1280x424.png)
-![](./icons/1280x424.png)
 
-# [icon](./icons/1024x1024.png)
+# [icon](ICON.md)
+<center>
 ![](./icons/1024x1024.png)
+</center>
 
-on macos
-
-```shell
-make
-
-```
-
+# [banner](BANNER.md)
+<center>
+![](./banner/2560x853.png)
+</center>
