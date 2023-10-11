@@ -7,6 +7,7 @@ docs:
 	@install -v README.md docs/index.md
 	@sed 's/images/.\/images/' README.md > docs/index.md
 	@cp -R ./icons ./docs/
+	cd banner && ./make-sizes.sh && cd ..
 init:initialize
 initialize:
 	cd scripts && ./initialize && cd ..

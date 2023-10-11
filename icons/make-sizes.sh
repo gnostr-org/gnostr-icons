@@ -18,19 +18,41 @@ SIDE=$(expr $BASE / 2)   #512
 sips_side
 SIDE=$(expr $BASE / 4)   #256
 sips_side
+SIDE=180                 #180
+sips_side
 SIDE=$(expr $BASE / 6)   #170
+sips_side
+SIDE=167                 #167
+sips_side
+SIDE=152                 #152
 sips_side
 SIDE=$(expr $BASE / 8)   #128
 sips_side
+SIDE=120                 #120
+sips_side
 SIDE=$(expr $BASE / 10)  #102
 sips_side
+SIDE=87                  #87
+sips_side
 SIDE=$(expr $BASE / 12)  #85
+sips_side
+SIDE=80                  #80
+sips_side
+SIDE=76                  #76
 sips_side
 SIDE=$(expr $BASE / 14)  #73
 sips_side
 SIDE=$(expr $BASE / 16)  #64
 sips_side
+SIDE=60                  #60
+sips_side
+SIDE=58                  #58
+sips_side
+SIDE=40                  #40
+sips_side
 SIDE=$(expr $BASE / 32)  #32
+sips_side
+SIDE=29                  #29
 sips_side
 SIDE=$(expr $BASE / 42)  #24
 sips_side
@@ -43,6 +65,7 @@ sips_side
 SIDE=$(expr $BASE / 256) #4
 sips_side
 
-#rect-banner
-sips -z 106 320   1280x424.png --out 106x320.png
-sips -z 212 640   1280x424.png --out 212x640.png
+## #rect-banner
+## sips --debug -z $(expr 1280 / 3) $(expr 424 / 3) \
+##   icon1280x424.png \
+##   --out $(expr 1280 / 3)/$(expr 424 / 3).png¬

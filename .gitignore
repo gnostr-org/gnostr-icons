@@ -1,3 +1,5 @@
+**xcuserdata**
+
 .DS_Store
 scripts/get-pip.py
 #we manually add .icns files to the repo
@@ -24,8 +26,20 @@ icons/73x73.png
 icons/85x85.png
 icons/8x8.png
 icons/96x96.png
+icons/120x120.png
+icons/152x152.png
+icons/167x167.png
+icons/180x180.png
+icons/29x29.png
+icons/40x40.png
+icons/58x58.png
+icons/60x60.png
+icons/76x76.png
+icons/80x80.png
+icons/87x87.png
 #we manually add .icns files to the repo
 square-banner.icns
+banner.iconset
 #
 docs/
 
@@ -73,8 +87,8 @@ m4/ltsugar.m4
 m4/ltversion.m4
 m4/lt~obsolete.m4
 
-# Generated Makefile 
-# (meta build system like autotools, 
+# Generated Makefile
+# (meta build system like autotools,
 # can automatically generate from config.status script
 # (which is called by configure script))
 Makefile
