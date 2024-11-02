@@ -1,0 +1,8 @@
+[submodule "nostr-sdk-ios"]
+	path = nostr-sdk-ios
+	url = https://github.com/nostr-sdk/nostr-sdk-ios.git
+        ignore = dirty
+[submodule "nostr-swift"]
+	path = nostr-swift
+	url = https://github.com/rust-nostr/nostr-swift.git
+        ignore = dirty
