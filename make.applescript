@@ -19,7 +19,7 @@ tell application "Finder"
 	set destinationFolder to quoted form of POSIX path of destinationFolder
 	do shell script "sips -s format " & formatChoice & " -s formatOptions " & qualityChoice & " -Z " & widthChoice & " -s dpiWidth 72 -s dpiHeight 72 -m '/System/Library/ColorSync/Profiles/sRGB Profile.icc' " & imgPaths & " --out " & destinationFolder
 	if (exists folder "app@2x" of folder myFolder) is false then
-		make folder at myFolder with properties {name:"app-144"}
+		make folder at myFolder with properties {name:"app@2x"}
 	end if
 	set destinationFolder to myFolder & "app@2x:" as string
 	set destinationFolder to quoted form of POSIX path of destinationFolder
