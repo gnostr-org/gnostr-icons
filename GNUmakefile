@@ -1,0 +1,2 @@
+-:
+	. make-icns.sh
