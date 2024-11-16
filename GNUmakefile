@@ -1,4 +1,5 @@
 -:docs
+	. make-icns.sh
 .PHONY: docs
 docs:
 	@mkdir -p docs
