@@ -8,5 +8,5 @@
 
 # [banner](BANNER.md)
 <center>
-![](banner/2560x853.png)
+![](banner/3072x1024.png)
 </center>
