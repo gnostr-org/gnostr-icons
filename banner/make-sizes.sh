@@ -16,9 +16,9 @@ fi
 
 }
 
-##icon2560x853.png
+##icon3072x1024.png
 
-SIDE=2560
+SIDE=3072
 sips_side
 
 ## #rect-banner

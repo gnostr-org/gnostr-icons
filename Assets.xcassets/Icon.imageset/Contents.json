@@ -11,6 +11,7 @@
           "value" : "light"
         }
       ],
+      "filename" : "1024x1024 1.png",
       "idiom" : "universal"
     },
     {
@@ -20,6 +21,7 @@
           "value" : "dark"
         }
       ],
+      "filename" : "background.png",
       "idiom" : "universal"
     }
   ],
