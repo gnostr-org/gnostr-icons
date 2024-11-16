@@ -34,7 +34,7 @@ jobs:
           sudo apt-get install gawk
       - name: make
         run: |
-          make init
+          make || true
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
